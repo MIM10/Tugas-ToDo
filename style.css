@@ -15,9 +15,17 @@ body {
 }
 
 .kpl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-self: flex-start;
     background-color: antiquewhite;
     width: 100%;
+}
+
+.kpl h1 {
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .bdn{
